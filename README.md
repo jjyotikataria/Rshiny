@@ -19,4 +19,15 @@ Some new "keep in mind" points I learnt while doing this course from Linkedin
 - Debugging Issues
    - shinjys:runcodeUI()
    - shinyjs::runcodeserver()
-   - shiny::reactLog() 
+   - shiny::reactLog()
+   - useShinyjs() : Refer 08_03 project
+ 
+- Deployment Issues
+   - Include all codes in server.R
+   - Could be due to time zone as well
+   - Ensure tokens are sent to the server when you are using datapackages which talk via the API
+ 
+- Shiny apps convert the inputs into strings to avoid nefarious content, prone to hacking if not done so
+   - Example - select input numeric values will be treated as string
+
+

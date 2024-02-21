@@ -14,4 +14,9 @@ Some new "keep in mind" points I learnt while doing this course from Linkedin
 
 > Whatever files are uploaded with input file widget, the files are temp. stored on the R shiny server and gets deleted when the shiny app is stopped. \
 
-> 
+> Using rhandsontable to take the inputs from the user \
+
+> Debugging Issues
+ - shinjys:runcodeUI()
+ - shinyjs::runcodeserver()
+ - shiny::reactLog() 

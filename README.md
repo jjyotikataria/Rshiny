@@ -11,10 +11,11 @@ Some new "keep in mind" points I learnt while doing this course from Linkedin
   - rfigshare 
   - shinycustomloader
   - rhandsontable
+  - rsconnect
 
-- Isolate the reactive variables if the action button should update the plot only when all inputs are changed acc. to need \
+- Isolate the reactive variables if the action button should update the plot only when all inputs are changed acc. to need 
 
-- Whatever files are uploaded with input file widget, the files are temp. stored on the R shiny server and gets deleted when the shiny app is stopped. \
+- Whatever files are uploaded with input file widget, the files are temp. stored on the R shiny server and gets deleted when the shiny app is stopped. 
 
 - Using rhandsontable to take the inputs from the user 
 
@@ -35,5 +36,8 @@ Some new "keep in mind" points I learnt while doing this course from Linkedin
 - Adjusting css elements refer 09_01
 
 - Deploying shiny apps
+   - shinyapps.io is not GDPR compliant and unlikely to be in future
+   - Refer 10_02 Project
+   - Refer 10_04 for rsconnect 
 
 

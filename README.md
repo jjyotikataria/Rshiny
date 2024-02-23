@@ -1,8 +1,7 @@
 # Rshiny
 
 
-Some new "keep in mind" points I learnt while doing this course from Linkedin
-
+Some new "keep in mind" points I learnt while doing this course from Linkedin named "Building Data Apps with R and Shiny Essential Training"
 
 - Include libraries in both ui.R and server.R for example, htmlwidgets 
 
